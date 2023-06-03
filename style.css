@@ -7,8 +7,9 @@
 .topPart{
     background-image: url(top-banner.png);
     background-repeat: no-repeat;
-    height: 500px;
+    height: 700px;
     display: flex;
+    margin-bottom: 0%;
 }
 .topPart h1{
     margin-bottom: 2%;
@@ -42,9 +43,10 @@
     padding-left: 2%;
     float: left;
 }
-.halfWidth img{
+.topPart .halfWidth img{
     width: 100%;
     padding-left: 10%;
+    margin-top: 10%;
 }
 .linkButton{
     text-decoration: none;
