@@ -4,20 +4,24 @@
     padding: 0px;
     box-sizing: border-box;
 }
-.topPart{
-    background-image: url(top-banner.png);
-    background-repeat: no-repeat;
-    height: 700px;
-    display: flex;
-    margin-bottom: 0%;
+.logo{
+    font-size: 35px;
+    letter-spacing: .5px;
+    cursor: pointer;
+    font-family: 'Audiowide', sans-serif;
+    text-shadow: 3px 3px 3px #ababab;
+    text-transform: uppercase;
+    color: #f9004d;
 }
-.topPart h1{
+
+.welcome{
     margin-bottom: 2%;
     margin-top: 10%;
     font-size: 30px;
     color: rgb(20, 20, 82);
+   
 }
-.topPart .textHighlite{
+.textHighlite{
     margin-bottom: 5%;
     margin-top: 0;
     font-family: 'Audiowide', sans-serif;
@@ -26,28 +30,17 @@
     font-size: 50px;
     text-transform: uppercase;
 }
-.topPart h3{
-    margin: 2% 0;
-    color: rgb(16, 175, 223);
-    font-size: 25px;
-    text-transform: uppercase;
+.imagesTest{
+    width: 80%;
+    margin-top: 10%;
+    height: 400px;
 }
-.topPart p{
+.textTest{
     margin-bottom: 8%;
     font-size: 20px;
     text-align: justify;
 }
-.halfWidth{
-    width: 45%;
-    margin-left: 3%;
-    padding-left: 2%;
-    float: left;
-}
-.topPart .halfWidth img{
-    width: 100%;
-    padding-left: 10%;
-    margin-top: 10%;
-}
+
 .linkButton{
     text-decoration: none;
    background-image: linear-gradient(45deg, rgb(255, 165, 0), tomato);
@@ -66,9 +59,8 @@
 }
 
 .secondPart{
-    background-image: url(biography-bg.png);
+    background-image: url(images/biography-bg.png);
     background-repeat: no-repeat;
-    height: 500px;
     background-position: right bottom;
     margin-bottom: 0%;
 }
@@ -81,8 +73,8 @@
     font-size: 40px;
     text-transform: uppercase;
 }
-.secondPart .halfWidth img{
-    width: 70%;
+.secondPart img{
+    width: 80%;
     padding-left: 2%;
     margin-top: 0px;
 }
@@ -90,14 +82,7 @@
     text-align:justify;
     text-transform: capitalize;
     font-size: 20px;
-    margin-bottom: 5%;
-}
-.halfWidth_sc{
-    width: 45%;
-    margin-left: -5%;
-    padding-left: 0;
-    margin-top: 0%;
-    float: left;
+    margin-bottom: 0%;
 }
 .secondPart p a{
     text-decoration: none;
@@ -109,11 +94,9 @@
     border-bottom:2px solid rgb(20, 20, 82);
     color: rgb(20, 20, 82);
 }
-
 .experienceArea{
-    background-image: url(exp-bg.png);
+    background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
-    height: 500px;
     background-position: left;
 }
 .experienceArea h1{
@@ -153,12 +136,8 @@
     border-left: 7px solid;
     border-image: linear-gradient(0deg, rgb(61, 59, 56), red);
     border-image-slice: 1;
-    
 }
 
-.latestWork{
-    margin: 0 5% 10% 5%;
-}
 .latestWork h1{
     margin-bottom: 4%;
     font-family: 'Josefin Sans', sans-serif;
@@ -169,16 +148,12 @@
     text-align: center;
 }
 .latestWork img{
-    width: 33%;
+    width: 100%;
     height: 50%;
-}
-.latestWork .latestWorkImg{
-    display: flex;
-    justify-content: space-between;
 }
 
 .clientReview{
-    background-image: url(biography-bg.png);
+    background-image: url(images/biography-bg.png);
 }
 .clientReview h1{
     margin-bottom: 4%;
